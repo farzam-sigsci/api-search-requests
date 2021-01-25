@@ -4,7 +4,7 @@ import csv
 import sys
 from pprint import pprint
 
-url = "https://dashboard.signalsciences.net/api/v0/corps/YOUR_CORP/sites/YOUR_SITE/requests?limit=1000&page=1&q=tag%3Aforcefulbrowsing%20from%3A-1d"
+url = "https://dashboard.signalsciences.net/api/v0/corps/"YOUR_CORP"/sites/"YOUR_SITE"/requests?limit=1000&page=1&q=tag%3A"YOURSIGNAL_NAME"%20from%3A-1d"
 
 payload={}
 headers = {
